@@ -1,0 +1,27 @@
+# === ZAI-Core Cloud Server Dependencies ===
+
+# Core web server
+Flask==3.0.3
+
+# Networking & requests handling
+requests==2.32.3
+urllib3==2.2.2
+
+# CLI styling & logging
+rich==13.7.1
+colorama==0.4.6
+
+# JSON & data utilities
+simplejson==3.19.2
+
+# Async & background task (future heartbeat / sync expansion)
+aiohttp==3.10.5
+
+# CORS support (optional kalau mau diakses dari banyak device)
+Flask-Cors==5.0.0
+
+# Security / Auth (optional for token check)
+itsdangerous==2.2.0
+
+# Performance (optional but helps Render)
+gunicorn==22.0.0
